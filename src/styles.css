@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #7159c1;
+  background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20 20.5V18H0v-2h20v-2H0v-2h20v-2H0V8h20V6H0V4h20V2H0V0h22v20h2V0h2v20h2V0h2v20h2V0h2v20h2V0h2v20h2v2H20v-1.5zM0 20h2v20H0V20zm4 0h2v20H4V20zm4 0h2v20H8V20zm4 0h2v20h-2V20zm4 0h2v20h-2V20zm4 4h20v2H20v-2zm0 4h20v2H20v-2zm0 4h20v2H20v-2zm0 4h20v2H20v-2z' fill='%239C92AC' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+
+section {
+  width: 600px;
+  margin: 0 auto;
+  background: #604aa9;
+  padding: 30px;
+  border-radius: 4px;
+  margin-top: 60px;
+}
+
+section form {
+  width: 100%;
+  display: flex;
+}
+
+section form input {
+  flex: 1;
+  height: 42px;
+  border-radius: 4px;
+  padding: 0 15px;
+  font-size: 16px;
+  color: #666;
+  border: 0;
+}
+
+section form button {
+  width: 100px;
+  border: 0;
+  border-radius: 4px;
+  background: #a0e03a;
+  font-weight: bold;
+  color: #222;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+section ul {
+  list-style: none;
+  margin-top: 20px;
+}
+
+section ul li {
+  line-height: 50px;
+  margin: 0 20px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section ul li s {
+  opacity: 0.6;
+}
+
+section ul li + li {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+section ul li button {
+  border: 0;
+  background: #fff;
+  border-radius: 4px;
+  padding: 6px 10px;
+  font-weight: bold;
+  font-size: 12px;
+  margin-left: 10px;
+}
